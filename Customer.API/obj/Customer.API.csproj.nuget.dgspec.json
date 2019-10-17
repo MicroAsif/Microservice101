@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\microasif\\source\\repos\\Microservice101\\Customer.API\\Customer.API.csproj": {}
+    "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Customer.API\\Customer.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\microasif\\source\\repos\\Microservice101\\Customer.API\\Customer.API.csproj": {
+    "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Customer.API\\Customer.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Customer.API\\Customer.API.csproj",
+        "projectUniqueName": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Customer.API\\Customer.API.csproj",
         "projectName": "Customer.API",
-        "projectPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Customer.API\\Customer.API.csproj",
+        "projectPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Customer.API\\Customer.API.csproj",
         "packagesPath": "C:\\Users\\microasif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Customer.API\\obj\\",
+        "outputPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Customer.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

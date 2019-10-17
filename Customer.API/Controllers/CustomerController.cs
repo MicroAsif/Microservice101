@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Customer.API.FakeService;
+using Customer.API.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Customer.API.Controllers

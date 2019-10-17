@@ -12076,11 +12076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Products.API\\Products.API.csproj",
+      "projectUniqueName": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Products.API\\Products.API.csproj",
       "projectName": "Products.API",
-      "projectPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Products.API\\Products.API.csproj",
+      "projectPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Products.API\\Products.API.csproj",
       "packagesPath": "C:\\Users\\microasif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\Products.API\\obj\\",
+      "outputPath": "C:\\Users\\microasif\\source\\repos\\Microservice101\\.NETCoreMicroservice101\\Products.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

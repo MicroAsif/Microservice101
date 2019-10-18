@@ -29,6 +29,10 @@ namespace Orders.API.Service
         {
             return GetOrders().FirstOrDefault(x => x.Id == orderId);
         }
+        public static Order CustomerOrder(int customerId)
+        {
+            return GetOrders().FirstOrDefault(x => x.CustomerId == customerId);
+        }
     }
     public class Order
     {

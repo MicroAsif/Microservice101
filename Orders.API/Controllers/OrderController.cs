@@ -22,5 +22,10 @@ namespace Orders.API.Controllers
         {
             return Ok(OrderService.GetOrder(orderId));
         }
+        [HttpGet("CustomerOrder")]
+        public IActionResult CustomerOrder(int customerId)
+        {
+            return Ok(OrderService.CustomerOrder(customerId));
+        }
     }
 }

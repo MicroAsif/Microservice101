@@ -32,10 +32,43 @@
         }
       ],
       "UpstreamPathTemplate": "/order-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/customer/getcustomer?customerId={customerId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7001"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/customer/getcustomer?customerId={customerId}",
+      "Key": "customer"
+    },
+    {
+      "DownstreamPathTemplate": "/api/order/CustomerOrder?customerId={customerId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7003"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/order/CustomerOrder?customerId={customerId}",
+      "Key": "order"
     }
 
   ],
- 
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "customer",
+        "order"
+      ],
+      "UpstreamPathTemplate": "/customerAndOrder/{customerId}"
+    }
+  ],
+
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:7000/"
   }

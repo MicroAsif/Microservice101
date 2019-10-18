@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Customer.API.Controllers
+namespace APIGateway.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,5 +16,6 @@ namespace Customer.API.Controllers
         {
             return "API GATEWAY";
         }
+      
     }
 }

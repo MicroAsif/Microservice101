@@ -1,4 +1,4 @@
-# .NETCoreMicroservice101
+# Microservice101
 trying to learn how microservice architechure works
 
 

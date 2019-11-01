@@ -1,5 +1,5 @@
 # Microservice101
-trying to learn how microservice architechure works
+trying to learn how microservice API gateway works
 
 
 customer API : localhost:7001
@@ -26,9 +26,10 @@ localhost:7002/api/order/CustomerOrder?customerId=1
 We can access all API using - localhost:7000
 
 ```
-localhost:7000/customer_api/
-localhost:7000/product_api/
-localhost:7000/order_api/
+localhost:7000/customer-api/
+localhost:7000/product-api/
+localhost:7000/order-api/
+localhost:7000/customerAndOrder/{{customerId}}
 ```
 
 
